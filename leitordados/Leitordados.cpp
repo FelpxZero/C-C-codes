@@ -5,11 +5,6 @@
 
 // Função para fazer o parse do JSON
 void parseJson(const std::string& jsonStr, std::vector<double>& faturamentoDiario) {
-    // Neste exemplo, estamos lendo os valores de faturamento diário como números de ponto flutuante
-    // de uma string de JSON que segue o formato {"faturamento": [1.2, 3.4, 5.6, ...]}
-    // É importante implementar as verificações de erro e validações necessárias para garantir
-    // a integridade dos dados de entrada.
-    // Exemplo simplificado:
     size_t inicio = jsonStr.find('[');
     size_t fim = jsonStr.find(']');
     std::string valores = jsonStr.substr(inicio + 1, fim - inicio - 1);
