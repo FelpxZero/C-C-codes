@@ -14,7 +14,7 @@ int main() {
             float pES = (es / Total) * 100;
             float pOutros = (outros / Total) * 100;
      
-    printf("Percentual de representação por estado:\n");
+    printf("Percentual de representacao por estado:\n");
     printf("SP: %.2f%%\n", pSP);
     printf("RJ: %.2f%%\n", pRJ);
     printf("MG: %.2f%%\n", pMG);
